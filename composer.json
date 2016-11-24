@@ -1,0 +1,22 @@
+{
+    "name": "lukevear/laravel-transformer",
+    "description": "A simple transformer for Laravel Eloquent models and collections.",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": ">=5.1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Luke Vear",
+            "homepage": "https://github.com/lukevear"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LukeVear\\LaravelTransformer\\": "src/"
+        }
+    }
+}
